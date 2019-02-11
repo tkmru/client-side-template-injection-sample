@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Client-Side Template Injection Sample</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.7/angular.min.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css'>
+</head>
+<body ng-app="">
+<section class="section">
+  <div class="container">
+    <h1 class="title">Client-Side Template Injection Sample App with Angular.js</h1>
+    <p>Display GET Parameter <b>input</b></p>
+    <div class="field">
+      <div class="control">
+        <input class="input is-small" type="text" ng-model="query">
+      </div>
+      <div class="control">
+        <a class="button is-dark is-normal" ng-href="/?input={{query}}">Submit</a>
+      </div>
+    </div>
+    <p><b>Result:</b><%= @input %></p>
+  </div>
+</section>
+</body>
+</html>
