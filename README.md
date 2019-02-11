@@ -1,6 +1,7 @@
 # Client-Side Template Injection Sample App with Angular.js
 
 ![img](./screenshots/screenshot.png)
+![img2](./screenshots/screenshot2.png)
 
 # How to use
 Run `startup.sh`, sintra app work on 5000 port.
