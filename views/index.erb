@@ -19,7 +19,8 @@
         <a class="button is-dark is-normal" ng-href="/?input={{query}}">Submit</a>
       </div>
     </div>
-    <p><b>Result:</b><%= @input %></p>
+    <p ng-non-bindable><b>Safe Result:</b><%= @input %></p>
+    <p><b>Unsafe Result:</b><%= @input %></p>
   </div>
 </section>
 </body>

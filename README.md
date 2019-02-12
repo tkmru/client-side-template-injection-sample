@@ -1,6 +1,11 @@
 # Client-Side Template Injection Sample App with Angular.js
+Client-side template injection vulnerabilities occur when web application using a client-side template framework dynamically embed user input. 
+This Sinatra app has a client-side template injection vulnerability with Angular.js. Let's attack it!
 
 ![img](./screenshots/screenshot.png)
+
+`{{constructor.constructor('alert(1)')()}}` fire `alert()`.
+
 ![img2](./screenshots/screenshot2.png)
 
 # How to use
