@@ -16,7 +16,7 @@ $ ./startup.sh
 ```
 
 ## Docker
-Also DockerFile exists.
+Also Dockerfile exists.
 
 ```
 $ docker build . 
